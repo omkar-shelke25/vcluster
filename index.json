@@ -1,0 +1,12 @@
+{
+  "title": "vCluster Playground",
+  "description": "Get hands-on with vCluster! Spin up isolated virtual Kubernetes clusters, deploy workloads, and explore multi-tenancy – all in a pre-configured, ready-to-use environment.",
+  "details": {
+    "intro": {
+      "background": "background.sh"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
