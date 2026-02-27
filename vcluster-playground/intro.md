@@ -1,29 +1,27 @@
 # vCluster Playground 🚀
 
-Get hands-on with **vCluster**! Spin up isolated virtual Kubernetes clusters, deploy workloads, and explore multi-tenancy – all in a pre-configured, ready-to-use environment.
+Get hands-on with **vCluster**! Spin up isolated virtual Kubernetes clusters inside a host cluster.
 
-The **vCluster CLI** is already installed and a Kubernetes cluster is up and running.
+📖 [vCluster Documentation](https://www.vcluster.com/docs)
 
-## Try it out!
+## Get Started
 
 **Create a virtual cluster:**
-```
-vcluster create my-vcluster -n my-namespace
+```bash
+vcluster create dev-cluster -n dev
 ```
 
 **Connect to it:**
-```
-vcluster connect my-vcluster -n my-namespace
+```bash
+vcluster connect dev-cluster -n dev
 ```
 
 **List virtual clusters:**
-```
+```bash
 vcluster list
 ```
 
 **Delete a virtual cluster:**
+```bash
+vcluster delete dev-cluster -n dev
 ```
-vcluster delete my-vcluster -n my-namespace
-```
-
-> Feel free to experiment – this is a sandboxed environment, nothing to break! 🎉
